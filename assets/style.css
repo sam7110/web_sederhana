@@ -81,7 +81,7 @@ article > p {
     margin-bottom: 5px;
     border-radius: 8px;
     background-color: rgb(15, 26, 65);
-    box-shadow: 4px -4px 7px rgb(0, 0, 0,0.3);
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.4);
 }
 
 .grid1 img, .grid2 img, .grid3 img {
@@ -89,6 +89,15 @@ article > p {
 }
 
 @media screen and (max-width: 920px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        padding: 1px 3% 1px 0.1%;
+    }
+
     article > p {
         padding: 5px 3%;
         line-height: 1.5;
